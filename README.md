@@ -41,7 +41,7 @@ Example screenshot:
 
 ## 📂 Project Structure
 ```
-└── 📁خامس
+└── 
     └── 📁css
         ├── style.css
     └── 📁imgs
