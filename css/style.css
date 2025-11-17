@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.parent {
+    width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.parent:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+}
+
+.parent h2 {
+    text-align: center;
+    color: #222;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.parent .choose-quiz {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.parent .choose-quiz button {
+    padding: 12px 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.parent .choose-quiz button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+#html {
+    background: linear-gradient(135deg, #ff7043, #ff5722);
+    color: #fff;
+}
+#css {
+    background: linear-gradient(135deg, #7e57c2, #5e35b1);
+    color: #fff;
+}
+#js {
+    background: linear-gradient(135deg, #ffca28, #ffb300);
+    color: #2e1a47;
+}
+
+.questions {
+    width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.question h4 {
+    color: #1a1a2e;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 12px;
+    text-align: center;
+}
+
+.question .choose {
+    width: 100%;
+    cursor: pointer;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #1a1a2e;
+    margin-top: 12px;
+    background-color: #f9fafb;
+    border: 2px solid #d1d9e6;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.question .choose:hover {
+    background-color: #eef3f7;
+    border-color: #7e57c2;
+    transform: translateY(-2px);
+}
+
+.question .choose.selected {
+    background-color: #def7fb;
+    border-color: #0288d1;
+}
+
+.sub {
+    background: linear-gradient(135deg, #ff7043, #ff5722);
+    color: #fff;
+    padding: 12px 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    display: block;
+    margin: 20px auto 0;
+}
+.sub:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}

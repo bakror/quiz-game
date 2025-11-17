@@ -1,0 +1,308 @@
+{
+  "html": [
+    {
+      "question": "ما هي العلامة المستخدمة لإنشاء رابط في اتش تي ام ال؟",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": "<a>"
+    },
+    {
+      "question": "أي عنصر يستخدم لوضع العنوان الرئيسي في الصفحة؟",
+      "options": [
+        "<title>",
+        "<head>",
+        "<h1>",
+        "<header>"
+      ],
+      "answer": "<h1>"
+    },
+    {
+      "question": "أي خاصية من خصائص <img> تحدد النص البديل للصورة؟",
+      "options": [
+        "src",
+        "alt",
+        "title",
+        "text"
+      ],
+      "answer": "alt"
+    },
+    {
+      "question": "ما هي العلامة الصحيحة لإنشاء قائمة غير مرتبة؟",
+      "options": [
+        "<ol>",
+        "<ul>",
+        "<li>",
+        "<list>"
+      ],
+      "answer": "<ul>"
+    },
+    {
+      "question": "أي عنصر يستخدم لإضافة صف في جدول؟",
+      "options": [
+        "<td>",
+        "<th>",
+        "<tr>",
+        "<table>"
+      ],
+      "answer": "<tr>"
+    },
+    {
+      "question": "ما هي الوسيلة الصحيحة لإدراج فيديو في HTML5؟",
+      "options": [
+        "<video>",
+        "<movie>",
+        "<media>",
+        "<mp4>"
+      ],
+      "answer": "<video>"
+    },
+    {
+      "question": "أي عنصر يستخدم لتجميع محتوى داخل قسم محدد؟",
+      "options": [
+        "<section>",
+        "<div>",
+        "<span>",
+        "<group>"
+      ],
+      "answer": "<div>"
+    },
+    {
+      "question": "ما هي العلامة الصحيحة لتعريف نموذج (Form)؟",
+      "options": [
+        "<form>",
+        "<input>",
+        "<fieldset>",
+        "<submit>"
+      ],
+      "answer": "<form>"
+    },
+    {
+      "question": "أي عنصر يستخدم لعرض نص مائل؟",
+      "options": [
+        "<b>",
+        "<i>",
+        "<em>",
+        "<strong>"
+      ],
+      "answer": "<i>"
+    },
+    {
+      "question": "أي عنصر يستخدم لعرض كود برمجي؟",
+      "options": [
+        "<pre>",
+        "<code>",
+        "<script>",
+        "<syntax>"
+      ],
+      "answer": "<code>"
+    }
+  ],
+  "css": [
+    {
+      "question": "ما هي الخاصية المسؤولة عن تغيير لون النص في CSS؟",
+      "options": [
+        "color",
+        "background-color",
+        "font-color",
+        "text-color"
+      ],
+      "answer": "color"
+    },
+    {
+      "question": "أي خاصية تستخدم لتغيير الخط في CSS؟",
+      "options": [
+        "font-family",
+        "font-style",
+        "text-font",
+        "font-weight"
+      ],
+      "answer": "font-family"
+    },
+    {
+      "question": "كيف تجعل النص عريضًا في CSS؟",
+      "options": [
+        "font-style: bold;",
+        "font-weight: bold;",
+        "text-style: bold;",
+        "bold: true;"
+      ],
+      "answer": "font-weight: bold;"
+    },
+    {
+      "question": "أي خاصية تستخدم لتغيير لون خلفية العنصر؟",
+      "options": [
+        "color",
+        "background-color",
+        "bg-color",
+        "fill"
+      ],
+      "answer": "background-color"
+    },
+    {
+      "question": "ما هو الشكل الصحيح لتحديد جميع العناصر في CSS؟",
+      "options": [
+        "*",
+        "all",
+        "body",
+        "element"
+      ],
+      "answer": "*"
+    },
+    {
+      "question": "أي خاصية تستخدم لتغيير المسافة الداخلية داخل العنصر؟",
+      "options": [
+        "margin",
+        "padding",
+        "spacing",
+        "border"
+      ],
+      "answer": "padding"
+    },
+    {
+      "question": "أي وحدة قياس في CSS تمثل نسبة مئوية من حجم الخط؟",
+      "options": [
+        "px",
+        "%",
+        "em",
+        "rem"
+      ],
+      "answer": "em"
+    },
+    {
+      "question": "كيف تجعل العنصر يطفو إلى اليمين؟",
+      "options": [
+        "float: right;",
+        "align: right;",
+        "position: right;",
+        "text-align: right;"
+      ],
+      "answer": "float: right;"
+    },
+    {
+      "question": "أي خاصية تستخدم لجعل الحواف دائرية؟",
+      "options": [
+        "border-style",
+        "border-radius",
+        "border-round",
+        "corner-radius"
+      ],
+      "answer": "border-radius"
+    },
+    {
+      "question": "أي خاصية تتحكم في حجم النص؟",
+      "options": [
+        "text-size",
+        "font-size",
+        "size",
+        "font-style"
+      ],
+      "answer": "font-size"
+    }
+  ],
+  "javascript": [
+    {
+      "question": "كيف نكتب تعليق في JavaScript من سطر واحد؟",
+      "options": [
+        "/* تعليق */",
+        "// تعليق",
+        "# تعليق",
+        "<!-- تعليق -->"
+      ],
+      "answer": "// تعليق"
+    },
+    {
+      "question": "أي دالة تعرض رسالة منبثقة في JavaScript؟",
+      "options": [
+        "alert()",
+        "popup()",
+        "message()",
+        "show()"
+      ],
+      "answer": "alert()"
+    },
+    {
+      "question": "كيف نعلن عن متغير في JavaScript؟",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "جميع ما سبق"
+      ],
+      "answer": "جميع ما سبق"
+    },
+    {
+      "question": "كيف نحول نص إلى رقم في JavaScript؟",
+      "options": [
+        "toNumber()",
+        "parseInt()",
+        "Number()",
+        "كل ما سبق"
+      ],
+      "answer": "كل ما سبق"
+    },
+    {
+      "question": "أي رمز يستخدم للمقارنة الصارمة؟",
+      "options": [
+        "==",
+        "===",
+        "=",
+        "!=="
+      ],
+      "answer": "==="
+    },
+    {
+      "question": "كيف نكتب حلقة تكرار في JavaScript؟",
+      "options": [
+        "loop",
+        "repeat",
+        "for",
+        "foreach"
+      ],
+      "answer": "for"
+    },
+    {
+      "question": "ما هي الكلمة المفتاحية لإيقاف التكرار؟",
+      "options": [
+        "stop",
+        "exit",
+        "break",
+        "end"
+      ],
+      "answer": "break"
+    },
+    {
+      "question": "كيف نحدد طول المصفوفة؟",
+      "options": [
+        "size",
+        "length",
+        "count",
+        "index"
+      ],
+      "answer": "length"
+    },
+    {
+      "question": "كيف ننفذ كود بعد وقت محدد؟",
+      "options": [
+        "setTimeout()",
+        "wait()",
+        "delay()",
+        "after()"
+      ],
+      "answer": "setTimeout()"
+    },
+    {
+      "question": "أي نوع بيانات يحتوي على true أو false؟",
+      "options": [
+        "Boolean",
+        "String",
+        "Number",
+        "Object"
+      ],
+      "answer": "Boolean"
+    }
+  ]
+}
