@@ -26,6 +26,7 @@ Players can choose a quiz type (HTML, CSS, or JavaScript) and answer questions u
 ## 🎮 Demo
 Example screenshot:  
 <img src="https://raw.githubusercontent.com/bakror/quiz-game/refs/heads/main/imgs/image.png" width="300" alt="Screenshot">
+<img src="https://raw.githubusercontent.com/bakror/quiz-game/refs/heads/main/imgs/image1.png" width="300" alt="Screenshot">
 
 ---
 
